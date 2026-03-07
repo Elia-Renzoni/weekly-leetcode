@@ -1,5 +1,6 @@
 package week1
 
+// problem description: https://neetcode.io/problems/duplicate-integer/question?list=neetcode150
 func hasDuplicate(nums []int) bool {
 	times := make(map[int]int)
 	for _, value := range nums {
